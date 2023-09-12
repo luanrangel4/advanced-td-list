@@ -76,10 +76,17 @@ Tarefa extra (opcional): Implemente um campo de pesquisa para filtrar tarefas co
 Tarefa extra (opcional): Adicione paginação às listas de tarefas, limitando cada página a um máximo de 4 tarefas. Use SKIP e LIMIT nas consultas do MongoDB para a paginação. Realize essa paginação no lado do servidor usando publicações do Meteor. (Opcional)
 
 Protótipos e Recursos
+
 Tutorial do React Router
+
 Tutorial de Contas de Usuário do Meteor
+
 Formulários no React com Material-UI
+
 Introdução ao React Router
+
 Filosofia do React Router
+
 Tutorial do React Router
+
 Navegação Programática com React Router
