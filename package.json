@@ -1,0 +1,33 @@
+{
+  "name": "ad-todo-list",
+  "private": true,
+  "scripts": {
+    "start": "meteor run",
+    "test": "meteor test --once --driver-package meteortesting:mocha",
+    "test-app": "TEST_WATCH=1 meteor test --full-app --driver-package meteortesting:mocha",
+    "visualize": "meteor --production --extra-packages bundle-visualizer"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.7",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.14.7",
+    "@mui/material": "^5.14.7",
+    "bcrypt": "^5.1.1",
+    "meteor-node-stubs": "^1.2.5",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "meteor": {
+    "mainModule": {
+      "client": "client/main.jsx",
+      "server": "server/main.js"
+    },
+    "testModule": "tests/main.js"
+  }
+}
